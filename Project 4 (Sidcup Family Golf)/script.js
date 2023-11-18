@@ -29,7 +29,7 @@ gsap.to("#nav", {
   scrollTrigger: {
     trigger: "#nav",
     scroller: "body",
-    // markers:true,
+    
     start: "top -10%",
     end: "top -11%",
     scrub: 1,
@@ -41,7 +41,7 @@ gsap.to("#main", {
   scrollTrigger: {
     trigger: "#main",
     scroller: "body",
-    // markers: true,
+    
     start: "top -25%",
     end: "top -70%",
     scrub: 2,
@@ -81,7 +81,7 @@ gsap.from("#colon1", {
   scrollTrigger: {
     trigger: "#colon1",
     scroller: "body",
-    // markers:true,
+    
     start: "top 55%",
     end: "top 45%",
     scrub: 4,
@@ -93,7 +93,7 @@ gsap.from("#colon2", {
   scrollTrigger: {
     trigger: "#colon1",
     scroller: "body",
-    // markers:true,
+  
     start: "top 55%",
     end: "top 45%",
     scrub: 4,
@@ -104,11 +104,11 @@ gsap.from("#page4 h1", {
   scrollTrigger: {
     trigger: "#page4 h1",
     scroller: "body",
-    // markers:true,
+ 
     start: "top 75%",
     end: "top 70%",
     scrub: 3,
   },
 });
 
-// Thanks itna aage tak aane ke liye lekin pura code utha ke copy paste karne ki jagah khud ek baar banane ka try karna, kuch naya seekhne ko milega!
+
